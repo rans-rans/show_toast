@@ -20,7 +20,7 @@ class MainActivity : FlutterActivity() {
                 "show_toast" -> {
                     val msg = call.arguments as String
                     Toast.makeText(context, msg, Toast.LENGTH_SHORT).show()
-                    results.success("The message is $msg")
+                    results.success("The message is from kotlin is $msg")
                 }
 
             }
